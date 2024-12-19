@@ -1,6 +1,10 @@
 # GNOME → macOS Keyboard Remap for Wayland
 
-This keyboard remap is based on the [Xremap](https://github.com/k0kubun/xremap) functionality and works with Wayland and Xorg.
+This keyboard remap is based on the [Xremap](https://github.com/k0kubun/xremap) functionality and works with Wayland and Xorg. 
+This version is based on the [Goooler/gnome-macos-remap-wayland](https://github.com/Goooler/gnome-macos-remap-wayland) repository, with some additional tweaks:
+
+- **Caps Lock** is remapped to function as an additional **Ctrl** key.
+- The **Right Alt (⌥)** and **Right Meta (⌘)** keys have been swapped to improve usability with keyboard layouts that require the **Alt** key, such as [Ergo-L](https://ergol.org/).
 
 ![Gnome macOS Remap Icon](./resources/gnome-macos-remap-wayland.png#gh-light-mode-only)
 ![Gnome macOS Remap Icon](./resources/gnome-macos-remap-wayland-dark.png#gh-dark-mode-only)
