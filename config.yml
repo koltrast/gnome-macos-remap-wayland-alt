@@ -7,10 +7,11 @@ modmap:
 #    application:
 #      not: [gnome-terminal-server, org.gnome.Console]
     remap:
+      CapsLock: LeftMeta
       LeftCtrl: LeftMeta
       LeftMeta: LeftCtrl
-      RightCtrl: RightMeta
-      RightMeta: RightCtrl
+      RightMeta: RightAlt
+      RightAlt: RightMeta
 # `keymap` section
 # For remapping a sequence of key combinations to another sequence of key combinations
 keymap:
